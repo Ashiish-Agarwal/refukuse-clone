@@ -6,7 +6,7 @@ const Navbaar = () => {
 
   
   return (
-    <div className=' max-w-screen-xl mx-auto pb-6 pt-8 gap-16 bg-black flex border-solid border-b-[1px] border-x-zinc-700'>
+    <div className='  relative max-w-screen-xl mx-auto pb-6 pt-8 gap-16 bg-black flex border-solid border-b-[1px]  border-x-zinc-700'>
         
    
     <img src="https://cdn.prod.website-files.com/6334198f239547d0f9cd84b3/63349803431f1562dccf1802_refokus%20logo.svg" alt="Loading..." />
@@ -22,7 +22,7 @@ const Navbaar = () => {
    
    </a>)}
 
-   <div className=' pl-[82vh]'>
+    <div className=' absolute right-0'>
    <Button/>
 
    </div>

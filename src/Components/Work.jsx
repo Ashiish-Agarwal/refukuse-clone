@@ -72,10 +72,15 @@ const Work = () => {
 
 return (
     <>
-      <div className=' w-full flex items-center justify-center bg-black '>
+    <div className='  max-w-screen-xl mx-auto relative bg-black '>
+      <div className='  flex items-center  justify-center bg-black '>
 
 
-        <h1 className='relative uppercase text-white font-[satoshi] text-[60vh] tracking-tighter bg-black '>Work</h1>
+        <h1 className='relative w-full h-full  uppercase  text-white font-[satoshi] text-[58vh] tracking-tighter bg-black
+        
+  
+    
+        '>Work</h1>
         <div className='  top-0 '>
 
           {images.map((items, index) => items.value === true &&
@@ -88,6 +93,7 @@ return (
         </div>
 
 
+      </div>
       </div>
       </>
   )

@@ -17,7 +17,7 @@ const App = () => {
 const locomotiveScroll = new LocomotiveScroll();
 
   return (
-    <div className=' w-full h-screen bg-black '>
+    <div className=' sm:w-full sm:h-screen md:w-[100vw] xl[100vw] bg-black '>
       
         <Navbaar/>
         <Hero/>
